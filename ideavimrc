@@ -1,6 +1,3 @@
-" activate surround plugin emulation
-set surround
-
 let mapleader = ','
 
 " determines the number of context lines you would like to see above and below the cursor
@@ -14,3 +11,6 @@ set clipboard+=unnamed
 " easy pasting from visual mode
 " just type ,p to paste from the 0 register
 vnoremap <leader>p "0p
+" surround visual mode selected text with quotes
+vnoremap <leader>s di'<ESC>p
+vnoremap <leader>S di"<ESC>p
