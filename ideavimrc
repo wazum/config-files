@@ -1,0 +1,16 @@
+" activate surround plugin emulation
+set surround
+
+let mapleader = ','
+
+" determines the number of context lines you would like to see above and below the cursor
+set scrolloff=5
+" when 'ignorecase' and 'smartcase' are both on, if a pattern contains an uppercase letter, it is case sensitive
+set ignorecase smartcase
+" show the current vim mode (insert) in IDE status line
+set showmode
+" easy system clipboard copy/paste
+set clipboard+=unnamed
+" easy pasting from visual mode
+" just type ,p to paste from the 0 register
+vnoremap <leader>p "0p

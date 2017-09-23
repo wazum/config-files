@@ -1,4 +1,6 @@
-config-files
+dotfiles
 ============
 
-miscellaneous config files
+Miscellaneous config files
+* tmux https://github.com/tmux/
+* ideavim https://github.com/JetBrains/ideavim
