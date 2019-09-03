@@ -1,16 +1,19 @@
+set surround
 let mapleader = ','
-
-" determines the number of context lines you would like to see above and below the cursor
 set scrolloff=5
-" when 'ignorecase' and 'smartcase' are both on, if a pattern contains an uppercase letter, it is case sensitive
 set ignorecase smartcase
-" show the current vim mode (insert) in IDE status line
-set showmode
+"set showmode
+set undolevels=1500
 " easy system clipboard copy/paste
 set clipboard+=unnamed
-" easy pasting from visual mode
-" just type ,p to paste from the 0 register
 vnoremap <leader>p "0p
-" surround visual mode selected text with quotes
 vnoremap <leader>s di'<ESC>p
 vnoremap <leader>S di"<ESC>p
+
+nnoremap R :action RenameElement<CR>
+
+nnoremap cc :action CommentByLineComment<CR>
+vnoremap cc :action CommentByLineComment<CR>
+
+nnoremap " :reg<cr>"
+set ideajoin

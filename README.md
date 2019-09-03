@@ -1,6 +1,7 @@
-dotfiles
-============
+# dotfiles
 
-Miscellaneous config files
-* tmux https://github.com/tmux/
-* ideavim https://github.com/JetBrains/ideavim
+Miscellaneous config files for
+
+* zsh (`.zshrc`) Z-Shell
+* tmux (`.tmux.conf`) https://github.com/tmux/
+* ideavim (`.ideavimrc`) https://github.com/JetBrains/ideavim
